@@ -1,0 +1,153 @@
+/* dipto starts */
+#description{
+    color:black;
+    background-color: #B6BBC8  ;
+    opacity: .60;
+    margin-top: 10px;
+}
+
+section{
+
+}
+
+.gameCard{
+    width: 90%;
+    height: 160px;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 20px 0 20px 5%;
+    padding: 2px;
+    background-color: #2E4053;
+    color: #DACBCD;
+}
+
+.gameCard:hover{
+    box-shadow: 1px 1px 1px 5px gray;
+}
+
+.gameCard img{
+    height: 140px;
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 9px;
+    float: left;
+}
+
+.gameCard h4{
+    position: relative;
+    top: 20px;
+    left: 3px;
+    margin-top: -10px;
+}
+
+.gameCard h4 a{
+    color: #DACBCD   ;
+    text-decoration: none;
+}
+
+.gameCard h4 a:hover{
+    color: #406EA3  ;
+    text-decoration: none;
+}
+
+
+.gameCard p{
+    margin-top: 25px;
+}
+
+footer{
+    background-color: #0D1230;
+    height: 70px;
+    text-align: center;
+}
+
+footer div{
+    padding: 10px;
+}
+
+footer a{
+    color:#DACBCD;
+    text-decoration: none;
+    margin: 0 4% 0 4%;
+
+}
+footer a:hover{
+    color: #406EA3  ;
+    text-decoration: none;
+}
+footer span{
+    color:#DACBCD;
+}
+
+.hideDiv{
+    display: none;
+}
+
+/* dipto ends */
+
+#top2{
+    background-image: url("./game web/board.jpeg");
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 100%;
+    background-size: 100% 190px;
+    font-family: 'Orbitron', sans-serif;
+    position: fixed;
+    z-index: 100;
+    padding: 3px;
+    visibility: hidden;
+}
+
+#top2 a:hover{
+    text-decoration: none;
+}
+
+#title2{
+    margin: 0px 0px 0px 1%;
+    color: rgb(56, 255, 132);
+    font-size: 30px;
+    text-shadow: rgb(0, 0, 0) 0px 18px 5px;
+    display: inline;
+    float: left;
+}
+
+#search2{
+    float: right;
+    height: 25px;
+    width: 25%;
+    background-color: aqua;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 2%;
+
+}
+/* #search2:focus{
+    width: 200px;
+    height:25px;
+} */
+#search-btn2{
+    float: right;
+    height:25px;
+    width:25px;
+    background-image: url("./game web/search.png");
+    margin-top: 15px;
+    background-size: 18px 18px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+#search-btn2:hover{
+    background-color: rgb(48, 252, 184);
+}
+#search-btn2:active{
+    height: 30px;
+    width: 30px;
+}
+
+.hideHeader{
+    visibility: hidden;
+}

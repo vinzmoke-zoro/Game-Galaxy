@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACoVwAAAAAAAPLJnQD///8ARQ4IAIAXCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAERREAFMEQREUVQAiAAREQRVQAjAABEQxVQAiAEQ0RERQAjIEQzNERFADIgBENEREUCMiAERERERQIzIANEREREAgMiBERERERQIzIARUQ0RDAiIiAFQzNERQIjICBENEQ1ACMiIkREQTNQAiIiBEQRNEUAAyIERBERRVAAMlQRHgBwAAgAEAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIABAADgBwAA" rel="icon" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--imtiaz-->
+    <link rel="stylesheet" type="text/css" href="./game web/game.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">  
+    <!--dipto-->
+    <link rel="stylesheet" href="style.css">
+    <title>Game Galaxy</title>
+</head>
+<body>
+<!--imtiaz starts-->
+<div id="top">
+    <a href="#"><p id="title">Game Galaxy</p> </a>
+    <p id="slogan">Gamers Unite!</p>
+    <input id="search" type="Text" placeholder="Search.." name="search">
+    <button type="submit" id="search-btn"></button>
+   </div>
+   <!-- <hr style="height: 5px; border: none; color: black; background-color: black; margin-top: -10px;"> -->
+   <div id="top2">
+    <a href="#"><p id="title2">Game Galaxy</p> </a>
+    <input id="search2" type="Text" placeholder="Search.." name="search">
+    <button type="submit" id="search-btn2"></button>
+   </div>
+
+  <div style="clear: both;"></div>
+
+   <div id="search-results" class="hideDiv">
+    <h2>Search Results</h2>
+    <hr style="height: 5px; background-color: black;">
+   </div>
+   <div id="no-match-found" class="hideDiv" style="margin-left: 20px;">
+    <h4>No match found!</h4>
+   </div>
+
+       <div id="imgslide">
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+       <ol class="carousel-indicators">
+         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+         <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+
+       </ol>
+       <div class="carousel-inner">
+           <div class="carousel-item active">
+               <a href="https://66baphomet.github.io/devilsplayground"><img class="icon" src="./game images/devil.jpg" alt="..." ></a>
+               <div class="carousel-caption d-none d-md-block">
+                 <h5 class="slidecolor"></h5>
+                 <a href="https://66baphomet.github.io/devilsplayground"><h3 class="slidecolor">Play</h3></a>
+               </div>
+             </div>
+         <div class="carousel-item">
+          <a href="https://66baphomet.github.io/tic-tac-toe"><img class="icon" src="./game images/cross1.jpg" alt="..."></a>
+           <div class="carousel-caption d-none d-md-block">
+             <h5 class="slidecolor"></h5>
+             <a href="https://66baphomet.github.io/tic-tac-toe"><h3 class="slidecolor">Play</h3></a>
+           </div>
+         </div>
+         <div class="carousel-item">
+          <a href="https://66baphomet.github.io/rock-paper-scissors"><img class="icon" src="./game images/paper.jpg" alt="..." ></a>
+           <div class="carousel-caption d-none d-md-block">
+             <h5 class="slidecolor"></h5>
+             <a href="https://66baphomet.github.io/rock-paper-scissors"><h3 class="slidecolor">Play</h3></a>
+           </div>
+         </div>
+         <div class="carousel-item">
+          <a href="https://66baphomet.github.io/memorygame"><img class="icon" src="./game images/burger.png" alt="..."></a>
+           <div class="carousel-caption d-none d-md-block">
+             <h5 class="slidecolor"></h5>
+             <a href="https://66baphomet.github.io/memorygame"><h3 class="slidecolor">Play</h3></a>
+           </div>
+         </div> 
+         <div class="carousel-item">
+          <a href="https://66baphomet.github.io/connect-four"><img class="icon" src="./game images/connect-four.jpg" alt="..."></a>
+           <div class="carousel-caption d-none d-md-block">
+             <h5 class="slidecolor"></h5>
+             <a href="https://66baphomet.github.io/connect-four"><h3 class="slidecolor">Play</h3></a>
+           </div>
+         </div>  
+         <div class="carousel-item">
+          <a href="https://vinzmoke-zoro.github.io/breakout/"><img class="icon" src="./game images/breakout.png" alt="..."></a>
+           <div class="carousel-caption d-none d-md-block">
+             <h5 class="slidecolor"></h5>
+             <a href="https://vinzmoke-zoro.github.io/breakout/"><h3 class="slidecolor">Play</h3></a>
+           </div>
+         </div>   
+         <div class="carousel-item">
+          <a href="https://66baphomet.github.io/whack-a-mole"><img class="icon" src="./game images/mole.jpeg" alt="..."></a>
+           <div class="carousel-caption d-none d-md-block">
+             <h5 class="slidecolor"></h5>
+             <a href="https://66baphomet.github.io/whack-a-mole"><h3 class="slidecolor">Play</h3></a>
+           </div>
+         </div>  
+         <div class="carousel-item">
+          <a href="https://66baphomet.github.io/pong"><img class="icon" src="./game images/pong.png" alt="..."></a>
+           <div class="carousel-caption d-none d-md-block">
+             <h5 class="slidecolor"></h5>
+             <a href="https://66baphomet.github.io/pong"><h3 class="slidecolor">Play</h3></a>
+           </div>
+         </div>   
+         <div class="carousel-item">
+          <a href="https://66baphomet.github.io/chess-remastered/"><img class="icon" src="./game images/chess.png" alt="..."></a>
+           <div class="carousel-caption d-none d-md-block">
+             <h5 class="slidecolor"></h5>
+             <a href="https://66baphomet.github.io/chess-remastered/"><h3 class="slidecolor">Play</h3></a>
+           </div>
+         </div>                             
+       </div>
+       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+       </a>
+       <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+       </a>
+     </div>
+       </div>
+    <!--imtiaz ends-->
+
+    <!--Dipto starts-->
+    <div id="description">
+        <h2>Welcome to Game Galaxy</h2>
+        <p>
+        Game Galaxy is our minor attempt to share our creation with others. We hope you that will like our work and send us your feedback.
+        We appreciate your suggestions and criticisms on our project. They will help us to improve ourselves. Hope you have a good time here
+        and best wishes from Tech Trinity.     
+        </p>
+    </div>
+
+    <section>
+    <div class="gameCard">
+        <a href="https://66baphomet.github.io/tic-tac-toe/"><img src="./game images/cross1.jpg" alt="Tic Tac Toe" title="Tic Tac Toe"></a>
+        <h4> <a href="https://66baphomet.github.io/tic-tac-toe/">Tic Tac Toe</a> </h4>
+        <p>
+         A classic game of Tic Tac Toe. Connect three crosses or naughts to.
+        </p>
+    </div>
+    <div class="gameCard">
+
+        <a href="https://66baphomet.github.io/rock-paper-scissors/"><img src="./game images/paper.jpg" alt="Rock Paper Scissors" title="Rock Paper Scissors"></a>
+        <h4> <a href="https://66baphomet.github.io/rock-paper-scissors/">Rock Paper Scissors</a></h4>
+        <p>
+            Score 10 to before the AI does.
+        </p>
+
+    </div>
+    <div class="gameCard">
+        <a href="https://66baphomet.github.io/devilsplayground/"><img src="./game images/devil.jpg" alt="Devil's Playground" title="Devil's Playground"></a>
+        <h4> <a href="https://66baphomet.github.io/devilsplayground/">Devil's Playground</a></h4>
+        <p>
+            Associate with the Devil and steal innocent mortal souls.
+        </p>
+    </div>
+    <div class="gameCard">
+        <a href="https://66baphomet.github.io/connect-four/"><img src="./game images/connect-four.jpg" alt="Connect Four" title="Connect Four"></a>
+        <h4> <a href="https://66baphomet.github.io/connect-four/">Connect Four</a> </h4>
+        <p>
+         Connect four of your color type to win the game.
+        </p>
+    </div>
+    <div class="gameCard">
+
+        <a href="https://66baphomet.github.io/memorygame/"><img src="./game images/burger.png" alt="Memory Game" title="Memory Game"></a>
+        <h4> <a href="https://66baphomet.github.io/memorygame/">Memory Game</a></h4>
+        <p>
+           Test your memory with the Memory Game.
+        </p>
+
+    </div>
+    <div class="gameCard">
+        <a href="https://66baphomet.github.io/whack-a-mole/"><img src="./game images/mole.jpeg" alt="Whack A Mole" title="Whack A Mole"></a>
+        <h4> <a href="https://66baphomet.github.io/whack-a-mole/">Whack A Mole</a></h4>
+        <p>
+            Whack the mole 40 times before the count down reaches 0.
+        </p>
+    </div>
+    <div class="gameCard">
+      <a href="https://vinzmoke-zoro.github.io/breakout/"><img src="./game images/breakout.png" alt="Break Out" title="Break Out"></a>
+      <h4> <a href="https://vinzmoke-zoro.github.io/breakout/">Break Out</a></h4>
+      <p>
+          Break all the bricks. With limited 3 lives, play wisely.
+      </p>
+  </div>
+  <div class="gameCard">
+    <a href="https://66baphomet.github.io/pong/"><img src="./game images/pong.png" alt="Multiplayer Pong" title="Multiplayer Pong"></a>
+    <h4> <a href="https://66baphomet.github.io/pong/">Multiplayer Pong</a></h4>
+    <p>
+        A multiplayer pong game to play with your friends.
+    </p>
+</div>
+<div class="gameCard">
+  <a href="https://66baphomet.github.io/chess-redone/"><img src="./game images/chess.png" alt="Chess" title="Chess"></a>
+  <h4> <a href="https://66baphomet.github.io/chess-redone/">Chess</a></h4>
+  <p>
+      Multiplayer Chess to play with your friends.
+  </p>
+</div>
+</section>
+
+<footer>
+    <div><a href="#">About</a><a href="https://www.facebook.com/techtrinity111/">Contact</a><a href="mailto:techtrinity111@gmail.com">Feedback</a><a href="#">Contribute</a><br/></div>
+    <span>&copy Tech Trinity</span>
+</footer>
+
+<!--Dipto ends-->
+    <script src="app.js"></script>
+    <script src="search.js"></script>
+    <!--imtiaz starts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+ 
+</body>
+</html>
